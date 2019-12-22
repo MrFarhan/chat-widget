@@ -6,7 +6,7 @@
     // iframe.src = `http://localhost:3000`;
 
     // uncommit below iframe src for production
-    iframe.src = `https://meet-widget.herokuapp.com/`;
+    iframe.src = `https://meetup-widget.herokuapp.com/`;
 
     iframe.style.display = "none";
     iframe.style.position = "absolute";
