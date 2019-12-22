@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.rsc {
+  height: 100%;
+}
+
+.fBGGBn {
+  height: calc(100% - 117px) !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

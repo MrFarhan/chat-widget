@@ -3,20 +3,20 @@
     var iframe = document.createElement("iframe");
 
     // uncommit below iframe src for development
-    // iframe.src = `http://localhost:4000/smoothflow/${window.APP_ID}_:_${sessionStorage.getItem("user_id")}`;
+    // iframe.src = `http://localhost:3000`;
 
     // uncommit below iframe src for production
-    iframe.src = `http://ec2-3-218-224-28.compute-1.amazonaws.com:4000/smoothflow/${
-      window.APP_ID
-    }_:_${sessionStorage.getItem("user_id")}/500`;
+    iframe.src = `http://localhost:3000`;
 
     iframe.style.display = "none";
     iframe.style.position = "absolute";
-    iframe.style.bottom = "75px";
+    iframe.style.bottom = "85px";
     iframe.style.right = 0;
-    iframe.style.height = "calc(100% - 75px)";
-    iframe.style.width = "510px";
+    iframe.style.height = "calc(100% - 95px)";
+    iframe.style.maxWidth = "510px";
+    iframe.style.width = "100%";
     iframe.style.border = "none";
+    iframe.style.marginRight = "10px";
     document.body.appendChild(iframe);
   }
 
@@ -31,7 +31,7 @@
     button.style.bottom = "5px";
     button.style.right = "10px";
     button.style.borderRadius = "100%";
-    button.style.background = "purple";
+    button.style.background = "#6e48aa";
     button.style.color = "#fff";
     button.style.border = "none";
     button.style.display = "flex";
