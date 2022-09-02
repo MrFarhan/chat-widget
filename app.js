@@ -16,6 +16,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build"));
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`server is running on port ${process.env.PORT}`);
+app.listen(3000, () => {
+  console.log(`server is running on port 3000`);
 });
